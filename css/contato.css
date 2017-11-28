@@ -1,0 +1,52 @@
+/* arquivo CSS de Contato */
+#secao-contato {
+  min-height: 600px;
+}
+
+#conteudo-contato {
+  background: #ffffff;
+  width: 300px;
+  margin: 60px auto;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+#conteudo-contato label {
+  display: block;
+  width: 80px;
+  float: left;
+}
+
+#conteudo-contato div {
+  margin-bottom: 20px;
+}
+
+#conteudo-contato input,
+#conteudo-contato textarea,
+#conteudo-contato button {
+  font-family: 'Ubuntu Condensed';
+  width: 210px;
+  border: 2px solid #cd1fce;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+#conteudo-contato textarea {
+  height: 100px;
+  resize: none;
+}
+
+#conteudo-contato button {
+  width: 75px;
+  margin: 0 auto;
+  display: block;
+}
+
+#msg-erro {
+  display: none;
+  border: 1px solid #ff0000;
+  color: #ff0000;
+  font-weight: bold;
+  padding: 2px;
+  text-align: center;
+}

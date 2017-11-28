@@ -1,0 +1,41 @@
+#secao-galeria {
+  width: 900px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+#secao-galeria article {
+  width: 600px;
+  min-height: 340px;
+  margin: 0 auto;
+  background: #ffffff;
+  border: 1px solid #71d400;
+  border-radius: 20px;
+  padding: 30px;
+  box-shadow: 5px 5px 50px #999999;
+}
+
+#secao-galeria article #dog-big {
+  margin: 0 auto;
+  display: block;
+}
+#secao-galeria article h1 {
+  text-align: center;
+}
+
+#secao-galeria .miniaturas {
+  width: 554px;
+  margin: 30px auto 0 auto;
+  cursor: pointer;
+}
+#secao-galeria .miniaturas .mini {
+  width: 100px;
+  padding: 3px;
+  border: 1px solid #71d400;
+  border-radius: 10px;
+  transition: box-shadow 1s;
+}
+#secao-galeria .miniaturas .mini:hover {
+  box-shadow: 3px 3px 3px #cccccc;
+}

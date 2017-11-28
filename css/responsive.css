@@ -1,0 +1,22 @@
+/* responsive */
+@media (max-width:1024px) {
+  #cabecalho {
+    background: #ff0000;
+  }
+}
+
+@media (max-width:540px) {
+  #cabecalho {
+    background: #0096D6;
+  }
+  #cabecalho h1 {
+    color: #000000;
+  }
+  #cabecalho .container {
+    width: 500px;
+  }
+  #menu {
+    background: #0096D6;
+    height: 90px;
+  }
+}

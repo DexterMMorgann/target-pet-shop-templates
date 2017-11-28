@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PetShop</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/contato.css">
+  </head>
+<body>
+<header id="cabecalho">
+  <div class="container">
+    
+    <div id="logo" onmouseover="late();"></div>
+    <h1>PET SHOP</h1>
+    <div class="clear"></div> <!-- servira como um divisor (clearfix) -->
+    <nav id="menu">
+      <a id="home" href="index.html">home</a>
+      <a id="produtos" href="#">produtos</a>
+      <a id="galeria" href="galeria.html">galeria</a>
+      <a id="servicos" href="#">serviços</a>
+      <a id="contato" href="contato.html">contato</a>
+    </nav>
+  </div>
+</header>
+
+<!-- CONTEUDO DA PAGINA -->
+<section id="secao-contato">
+  <div id="conteudo-contato">
+   <form method="POST" action="" onsubmit="return validaFormulario();">
+      <div id="msg-erro"></div>
+      
+      <div>
+       <label for="nome">Nome:</label>
+       <input type="text" name="nome" id="nome" placeholder="digite o seu nome...">
+      </div>
+      
+      <div>
+       <label for="email">Email:</label>
+       <input type="text" name="email" id="email" placeholder="digite o seu email...">
+      </div>
+      
+      <div>
+       <label for="mensagem">Mensagem:</label>
+       <textarea name="mensagem" id="mensagem" placeholder="digite sua mensagem..."></textarea>
+      </div>
+      
+      <div>      
+       <button type="submit" id="enviar" name="enviar">ENVIAR</button>
+      </div> 
+    </form>
+  </div>  
+  <div class="clear"></div>
+</section>
+<!-- FIM DE CONTEUDO DA PAGINA -->
+
+<footer id="rodape">Rua São Francisco da Califórnia, 23 - Porto Alegre</footer>
+</body>
+<script src="js/contato.js"></script>
+<script src="js/latido.js"></script>
+</html>
+  

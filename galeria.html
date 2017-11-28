@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PetShop</title>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/galeria.css">
+    <link rel="stylesheet" href="css/print.css" media="print">
+    <link rel="stylesheet" href="css/responsive.css">
+  </head>
+<body>
+<header id="cabecalho">
+  <div class="container">
+    
+    <div id="logo" onmouseover="late();"></div>
+    <h1>PET SHOP</h1>
+    <div class="clear"></div> <!-- servira como um divisor (clearfix) -->
+    <nav id="menu">
+      <a id="home" href="index.html">home</a>
+      <a id="produtos" href="#">produtos</a>
+      <a id="galeria" href="galeria.html">galeria</a>
+      <a id="servicos" href="#">serviços</a>
+      <a id="contato" href="contato.html">contato</a>
+    </nav>
+  </div>
+</header>
+
+<!-- CONTEUDO DA PAGINA -->
+<section id="secao-galeria">
+  <article>
+    <img id="dog-big" src="img/dogs/basenji.jpg">
+    <h1 id="dog-name">BASENJI</h1>
+    <div class="miniaturas">
+      <img class="mini" onclick="mostraCao('basenji.jpg','BASENJI');" src="img/dogs/basenji.jpg">
+      <img class="mini" onclick="mostraCao('bolognese.jpg','BOLOGNESE');" src="img/dogs/bolognese.jpg">
+      <img class="mini" onclick="mostraCao('bull.jpg','BULL');" src="img/dogs/bull.jpg">
+      <img class="mini" onclick="mostraCao('eskimo.jpg','ESKIMO');" src="img/dogs/eskimo.jpg">
+      <img class="mini" onclick="mostraCao('pinsher.jpg','PINSHER');" src="img/dogs/pinsher.jpg">
+    </div>
+  </article>  
+  <div class="clear"></div>
+</section>
+<!-- FIM DE CONTEUDO DA PAGINA -->
+
+<footer id="rodape">Rua São Francisco da Califórnia, 23 - Porto Alegre</footer>
+</body>
+<script src="js/galeria.js"></script>
+<script src="js/latido.js"></script>
+</html>
+  
